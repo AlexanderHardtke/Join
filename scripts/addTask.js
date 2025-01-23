@@ -1,5 +1,5 @@
-const taskURL = 'https://join-317-default-rtdb.europe-west1.firebasedatabase.app/tasksAll/';
-const userURL = 'https://join-317-default-rtdb.europe-west1.firebasedatabase.app/contactall'
+const taskURL = 'https://join-357c8-default-rtdb.europe-west1.firebasedatabase.app/tasksAll/';
+const userURL = 'https://join-357c8-default-rtdb.europe-west1.firebasedatabase.app/contactall'
 
 let tasks = [
     {

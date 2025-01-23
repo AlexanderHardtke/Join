@@ -1,4 +1,4 @@
-const BaseUrl = "https://join-317-default-rtdb.europe-west1.firebasedatabase.app/";
+const BaseUrl = "https://join-357c8-default-rtdb.europe-west1.firebasedatabase.app/";
 let SignUpWindowArrayIDs = ['LoginWindow', 'SignUpWindow', 'SignUpButtondisabled', 'SignUpButtonWindow']
 let SignUpWindowArrayAdd = ['none', 'SignUpMain', 'ButtonAddDisabled', 'none']
 let SignUpWindowArrayRemove = ['LoginPageMain', 'none', 'ButtonRemoveDisabled', 'LoginPageSignUp']
@@ -10,15 +10,7 @@ window.backToLogin = backToLogin;
 window.signUpWindow = signUpWindow;
 window.togglePasswordVisibility = togglePasswordVisibility;
 window.userInformationPopUp = userInformationPopUp;
-const firebaseConfig = {
-    apiKey: "AIzaSyDuQ-YTG7ylolHkh5lihoSAimNoSlyAfCk",
-    authDomain: "join-317.firebaseapp.com",
-    databaseURL: "https://join-317-default-rtdb.europe-west1.firebasedatabase.app/",
-    projectId: "join-317",
-    storageBucket: "join-317.appspot.com",
-    messagingSenderId: "514484898509",
-    appId: "1:514484898509:web:3c382924483fd16cf9b784"
-};
+const firebaseConfig = firebaseConfigHidden;
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 export { app, database, ref, get, child, set };

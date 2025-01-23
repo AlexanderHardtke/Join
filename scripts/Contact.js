@@ -1,4 +1,4 @@
-const BaseUrl = "https://join-317-default-rtdb.europe-west1.firebasedatabase.app/";
+const BaseUrl = "https://join-357c8-default-rtdb.europe-west1.firebasedatabase.app/";
 let charContactArray = [];
 let emailsArray = [];
 let contactNameArray = [];
