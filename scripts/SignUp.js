@@ -5,7 +5,7 @@ let SignUpWindowArrayRemove = ['LoginPageMain', 'none', 'ButtonRemoveDisabled', 
 import { getDatabase, ref, get, child, set } from "https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js";
 import {logInAnimation} from './LogIn.js';
-import firebaseConfigHidden from './firebase.js';
+import { firebaseConfigHidden } from './firebase.js';
 window.submitToFirebase = submitToFirebase;
 window.backToLogin = backToLogin;
 window.signUpWindow = signUpWindow;
