@@ -5,7 +5,7 @@ let tasks = [
         'date': '',
         'description': '',
         'id': '',
-        'prio': '/assets/icons/prioMedium.png',
+        'prio': '../assets/icons/prioMedium.png',
         'prioName': 'Medium',
         'section': 'toDo',
         'subtasks': [],
