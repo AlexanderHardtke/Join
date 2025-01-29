@@ -36,7 +36,7 @@ function generateTasksHTML(element, i) {
  * @returns {string} - The HTML string for initials and priority display.
  */
 function generateInitialsAndPriorityHTML(initialElements, remainingElement, prio) {
-  let validPrio = prio || '../assets/icons/defaultPriority.png';
+  let validPrio = '..' + prio || '../assets/icons/defaultPriority.png';
 
   return /*html*/`
     <div class="assignedToAndPrio">
@@ -129,7 +129,7 @@ function generateTaskDetails(task, taskIndex) {
         <div class="titleDetail">${task.title}</div>
         <div class="descriptionDetail">${capitalizedDescription}</div>
         <div>Due date: ${task.date || 'No Date'}</div>
-        <div>Priority: ${task.prioName ? task.prioName : 'No Priority'} <img src="${task.prio}" alt="PriorityImage"></div>
+        <div>Priority: ${task.prioName ? task.prioName : 'No Priority'} <img src="..${task.prio}" alt="PriorityImage"></div>
         <div class="assignedTo">Assigned To:</div>
         <div class="initalsAndName">${initialsAndName}</div>
         ${hasValidSubtasks ? `
